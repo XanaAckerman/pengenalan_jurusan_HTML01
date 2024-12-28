@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Position Absolute vs Static</title>
+  <style>
+    /* Style untuk elemen container */
+    .container {
+      width: 100%;
+      height: 300px;
+      background-color: lightgray;
+      border: 2px solid #ccc;
+      position: relative;  /* Induk dengan position relative */
+    }
+
+    /* Style untuk box pertama (dengan position default) */
+    .box1 {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      border: 2px solid #007bff;
+    }
+
+    /* Style untuk box kedua (dengan position absolute) */
+    .box2 {
+      width: 200px;
+      height: 100px;
+      background-color: lightcoral;
+      position: absolute;  /* Posisi absolute */
+      top: 10px;  /* Menggeser 50px dari atas container */
+      left: 150px;  /* Menggeser 150px dari kiri container */
+      padding: 20px;
+      text-align: center;
+      border: 2px solid #ff6347;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box1">
+      <p>Box 1 - position: static</p>
+    </div>
+    <div class="box2">
+      <p>Box 2 - position: absolute</p>
+    </div>
+  </div>
+</body>
+</html>

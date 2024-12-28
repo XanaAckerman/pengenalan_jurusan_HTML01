@@ -1,0 +1,39 @@
+
+CARI TAU MATERI
+Tugas 1
+-Objek multimedia
+<audio>, <video>, <embed>, object>
+
+- Elemen Aksesibilitas/semantik
+<nav>, <header>, <footer>, <main>, <section>, <article>, <aside>, <figure>
+, <figcaption>
+
+- stribut global pada tag
+
+-script
+<script>
+
+- object 
+<script>, <nonscript>
+
+-grouping
+<div>, <span>
+
+
+Tugas 2:
+pelajari tentang page anchor dan semua atribut lain di tag <a> (link/hyperlink)
+
+Tugas 3:
+pelajari tetang atribut lain di tag <img> dan juga buat gambar yang dikombinasikan
+dengan hyperlink
+
+Tugas 4: 
+pelajari tentang table merging dan atribut untuk membuat table
+
+Tugas 5:
+Buat 2 gambar berbeda, beda jika di laptop dan hp dengan html
+
+Tugas 6:
+Cari fungsi submit, reset, button di materi form
+
+Untuk tugas Form Data Diri Lengkap: tabelnya pake page merging

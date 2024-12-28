@@ -1,0 +1,86 @@
+index.HTML
+- hypertext markup language
+
+<h1>..<h6> size text (auto paragraph)
+<p> paragraph
+<br> baris baru
+<b>, <strong> bold
+<i>,<em> miring 
+<u> underline
+<mark> highlight
+
+
+LIST
+<ol type="A"> order list daftar berurut (<li> list)
+tanpa type listnya akan berurut dari 1,2 dst
+jika menggunakan type akan berurut dari menyesuaikan value dari type //kalua diatas akan tampil A, B dst
+
+<ul type="disc"> unlist x berurut (<li> list) point
+tanpa value dan pake value "disc" sama saja bentukannya
+value "square" bentuk kotak 
+value "circle" bentuk bulat kosong ditengah
+
+<dl> description list (<dt> untuk membuat kata yang akan direskripsikan (<dd> deskripsi dari dt))
+
+
+LINK
+<a href="tempat isi linknya">Text yang menagarahkan ke link</a>
+
+
+TABEL
+<table border="1"> nilainya sebagai saiz dari tablenya (<thead> penanda sebagai bagian teratasnya (<tr> yang membuat baris (<th> kolom tapi textnya auto bold)))
+<tbody> <td> kolomnya text yang tampil seperti biasa
+
+FORM
+
+   <form> \\untutk mengelompokkn element seperti inpu, textarea, select
+        <tabel for="nama_id">Isi disini</tabel>
+        <input type=""id="nama_id">
+    </form>
+
+    <form>
+        <label for="text" >Isi disini</label>
+        <input type="Text" placeholder="Text" id="text">
+    </form>
+    <form>
+        <label for="password">password disini</label>
+        <input type="password" id="password">
+    </form>
+       
+    <!-- namanya harus sama biar bisa dibaca kalau keduanya satu kesatuan nama="" -->
+    <form>
+        <input type="radio" placeholder="test" name="radio"> 
+        <lable for="">sigma 1</lable>
+       
+        <input type="radio" placeholder="test" name="radio">
+        <lable for="">sigma 2</lable>
+    </form>
+    
+    <form>
+
+        <input type="checkbox" value="test" name="checkbox">
+        <lable for="">sigma 1</lable>
+      
+        <input type="checkbox" value="test" name="checkbox">
+        <lable for="">sigma 2</lable>
+
+        <input type="checkbox" value="test" name="checkbox">
+        <lable for="">sigma 3</lable>
+    </form> 
+    <!-- form ada ruangan -->
+
+    <button type="">Pencet</button> <br>
+    <!-- textarean sama table tetapi bisa diatur -->
+    <textarea name="" id="'">kurniawan</textarea>
+
+    <select name="" id="">
+    <option value="">opsi 1</option>
+    <option value="">opsi 2</option>
+    <option value="">opsi 3</option>
+    </select>
+
+
+
+
+
+

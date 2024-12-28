@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model: Content, Padding, Border, Margin</title>
+  <style>
+    /* Gaya umum untuk kotak */
+    .kotak {
+      width: 200px;              /* Lebar konten */
+      height: 100px;             /* Tinggi konten */
+      background-color: lightblue; /* Warna latar konten */
+      color: black;              /* Warna teks */
+      text-align: center;
+      line-height: 100px;        /* Menyelaraskan teks secara vertikal */
+    }
+
+    /* Gaya untuk content */
+    .content {
+      background-color: lightgreen;
+      padding: 20px;            /* Padding di dalam konten */
+    }
+
+    /* Gaya untuk padding */
+    .padding {
+      background-color: rgba(255, 0, 0, 0.2);
+      padding: 20px;             /* Padding tambahan */
+    }
+
+    /* Gaya untuk border */
+    .border {
+      background-color: rgba(0, 0, 255, 0.2);
+      border: 20px solid black;   /* Border dengan ketebalan 5px */
+    }
+
+    /* Gaya untuk margin */
+    .margin {
+      background-color: rgba(0, 255, 0, 0.2);
+      margin: 20px;            /* Margin di luar border */
+    }
+  </style>
+</head>
+<body>
+  <h1>Demonstrasi Content, Padding, Border, Margin</h1>
+
+  <!-- Elemen dengan margin, border, padding, dan content -->
+  <div class="margin">
+    <div class="border">
+      <div class="padding">
+        <div class="content kotak">
+          Konten
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

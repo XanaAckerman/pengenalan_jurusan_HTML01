@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Position Fixed vs Static</title>
+  <style>
+    /* Style untuk elemen container */
+    .container {
+      width: 100%;
+      height: 1200px;  /* Memberikan ruang agar halaman bisa discroll */
+      background-color: lightgray;
+      border: 2px solid #ccc;
+    }
+
+    /* Style untuk box pertama (dengan position default) */
+    .box1 {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      border: 2px solid #007bff;
+    }
+
+    /* Style untuk box kedua (dengan position fixed) */
+    .box2 {
+      width: 200px;
+      height: 100px;
+      background-color: lightcoral;
+      position: fixed;  /* Posisi fixed */
+      top: 50px;  /* Menggeser 50px dari atas viewport */
+      right: 50px;  /* Menggeser 50px dari kanan viewport */
+      padding: 20px;
+      text-align: center;
+      border: 2px solid #ff6347;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box1">
+      <p>Box 1 - position: static</p>
+    </div>
+    <div class="box2">
+      <p>Box 2 - position: fixed</p>
+    </div>
+  </div>
+</body>
+</html>

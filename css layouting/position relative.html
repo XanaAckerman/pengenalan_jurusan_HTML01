@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Position Relative</title>
+  <style>
+    /* Menambahkan style untuk elemen-elemen */
+    .container {
+      width: 100%;
+      height: 100vh;
+      border: 1px solid #ccc;
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      border: 2px solid #007bff;
+    }
+
+    /* Box pertama dengan position relative */
+    .box1 {
+      position: relative;
+      top: 50px;  /* Menggeser kotak ke bawah sebesar 50px */
+      left: 100px;  /* Menggeser kotak ke kanan sebesar 100px */
+    }
+
+    /* Box kedua dengan position relative */
+    .box2 {
+      position: relative;
+      top: 30px;  /* Menggeser kotak ke bawah sebesar 30px */
+      left: 50px;  /* Menggeser kotak ke kanan sebesar 50px */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box box1">
+      <p>Box 1 - position: relative</p>
+    </div>
+    <div class="box box2">
+      <p>Box 2 - position: relative</p>
+    </div>
+  </div>
+</body>
+</html>

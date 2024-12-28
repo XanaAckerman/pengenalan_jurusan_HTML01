@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display: Inline, Block, Inline-block, None</title>
+  <style>
+    /* Gaya untuk elemen */
+    .kotak {
+      background-color: lightblue;
+      border: 1px solid black;
+      margin: 5px;
+      padding: 10px;
+    }
+
+    .inline {
+      display: inline;
+      /* lebar tinggi mengikuti isi konten */
+    }
+
+    .block {
+      display: block;  
+      /* hanya bisa mengatur lebarnya
+      ingginya menyesuaikan kontenya */
+    }
+
+    .inline-block {
+      display: inline-block;
+      width: 100px;
+      height: 50px;
+      /* bisa dimodif ukurannya */
+    }
+
+    .none {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Perbedaan Display</h1>
+
+  <!-- Inline -->
+  <h2>Display: Inline</h2>
+  <span class="kotak inline">Kotak 1</span>
+  <span class="kotak inline">Kotak 2</span>
+  <span class="kotak inline">Kotak 3</span>
+  <p>Semua kotak sejajar tanpa baris baru.</p>
+
+  <!-- Block -->
+  <h2>Display: Block</h2>
+  <div class="kotak block">Kotak 1</div>
+  <div class="kotak block">Kotak 2</div>
+  <div class="kotak block">Kotak 3</div>
+  <p>Semua kotak memulai baris baru.</p>
+
+  <!-- Inline-block -->
+  <h2>Display: Inline-block</h2>
+  <div class="kotak inline-block">Kotak 1</div>
+  <div class="kotak inline-block">Kotak 2</div>
+  <div class="kotak inline-block">Kotak 3</div>
+  <p>Semua kotak sejajar, tapi bisa diatur dimensi seperti block.</p>
+
+  <!-- None -->
+  <h2>Display: None</h2>
+  <div class="kotak none">Kotak ini tidak terlihat.</div>
+  <p>Kotak dengan display: none tidak muncul di halaman.</p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Image Gallery dengan Float</title>
+  <style>
+    /* Gaya untuk gambar */
+    .gallery {
+      overflow: hidden; /* Menghindari elemen terpotong jika ada float */
+    }
+
+    .gallery img {
+      float: left;            /* Gambar mengalir ke kiri */
+      margin: 10px;           /* Jarak antara gambar */
+      width: 100px;             /* Lebar gambar */
+      height: auto;           /* Menjaga aspek rasio gambar */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300" alt="Gambar 1">
+    <img src="https://via.placeholder.com/300" alt="Gambar 2">
+    <img src="https://via.placeholder.com/300" alt="Gambar 3">
+    <img src="https://via.placeholder.com/300" alt="Gambar 4">
+    <img src="https://via.placeholder.com/300" alt="Gambar 5">
+    <img src="https://via.placeholder.com/300" alt="Gambar 6">
+  </div>
+
+</body>
+</html>
